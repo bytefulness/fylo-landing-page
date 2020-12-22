@@ -7,6 +7,7 @@ Hi, I've used Html5, Css3 and Sass in this project. And of course without using 
 '@mixin flex($flex-directon, $justify-content, $align-items, $display: 'flex');'
 
 #Responsiveness
+
 Device dimensions tend to change over time. Therefore I've used content-based media queries not device-based. And I've tried to call them declarative in Sass such as:
 
 '@mixin for-tablet-landscape-up{
